@@ -1,10 +1,10 @@
-﻿<form id="frm_edit_product" name="produtoEditForm" novalidate>
+﻿<form id="frm_edit_product" name="productEditForm" novalidate>
     <div class="modal-header">
         <button type="button" class="close" ng-click="vm.cancel()" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
         <h4 class="modal-title">
-            <span>@L("Criar ou Editar Produto")</span>
+            <span>@L("Create or Edit Product")</span>
         </h4>
     </div>
     <div class="modal-body">
@@ -33,6 +33,14 @@
                     <div class="form-line">
                         <input id="description" type="text" name="Description" ng-model="vm.product.description" required maxlength="50" minlength="2" class="validate form-control">
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group form-float">
+                <label for="productname" class="form-label">@L("Size")</label>
+                <div class="form-line">
+                    <input id="productname" type="text" name="ProductName" ng-model="vm.product.size" required maxlength="32" minlength="1" class="validate form-control">
                 </div>
             </div>
         </div>

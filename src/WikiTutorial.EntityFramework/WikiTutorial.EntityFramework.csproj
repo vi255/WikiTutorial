@@ -197,6 +197,14 @@
     <Compile Include="Migrations\201809102049049_EntidadeProduto.Designer.cs">
       <DependentUpon>201809102049049_EntidadeProduto.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201809121421305_AdicionaSizeNoProduto.cs" />
+    <Compile Include="Migrations\201809121421305_AdicionaSizeNoProduto.Designer.cs">
+      <DependentUpon>201809121421305_AdicionaSizeNoProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809121937029_EntidadeCliente.cs" />
+    <Compile Include="Migrations\201809121937029_EntidadeCliente.Designer.cs">
+      <DependentUpon>201809121937029_EntidadeCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="WikiTutorialDataModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -214,6 +222,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201809102049049_EntidadeProduto.resx">
       <DependentUpon>201809102049049_EntidadeProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809121421305_AdicionaSizeNoProduto.resx">
+      <DependentUpon>201809121421305_AdicionaSizeNoProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809121937029_EntidadeCliente.resx">
+      <DependentUpon>201809121937029_EntidadeCliente.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

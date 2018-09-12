@@ -12,6 +12,7 @@ namespace WikiTutorial.Entities.ProductEntity
         //Atributos
         public string Name { get; set; }
         public string Description { get; set; }
+        public string Size { get; set; }
         public float Value { get; set; }
 
         //Construtores
@@ -20,11 +21,12 @@ namespace WikiTutorial.Entities.ProductEntity
             this.CreationTime = DateTime.Now;
         }
 
-        public Product(string name, string description, float value)//argumentos úteis para mapeamento
+        public Product(string name, string description, string size, float value)//argumentos úteis para mapeamento
         {
             this.CreationTime = DateTime.Now;
             this.Name = name;
             this.Description = description;
+            this.Size = size;
             this.Value = value;
         }
     }

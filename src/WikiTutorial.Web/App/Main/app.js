@@ -35,6 +35,11 @@
                     url: '/products',
                     templateUrl: '/App/Main/views/products/product_index.cshtml',
                     menu: 'Products'
+                })
+                .state('cliente', {
+                    url: '/cliente',
+                    templateUrl: '/App/Main/views/cliente/cliente_index.cshtml',
+                    menu: 'Cliente'
                 });
         }
     ]);
