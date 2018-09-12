@@ -30,7 +30,7 @@ namespace WikiTutorial.Entities.Manager
 
         public async Task<List<Product>> GetAllList()
         {
-           return await _productRepository.GetAllListAsync();
+            return await _productRepository.GetAllListAsync();
         }
 
         public async Task<Product> GetById(long id)

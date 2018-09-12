@@ -54,8 +54,7 @@ namespace WikiTutorial.ProductServices
         {
             var produto = input.MapTo<Product>();
             var produtoAtualizado = await _productManager.Update(produto);
-
-            return Mapper.Map<UpdateProductOutput>(produtoAtualizado.Id); 
+            return produtoAtualizado.MapTo<UpdateProductOutput>(); 
         }
     }
 }

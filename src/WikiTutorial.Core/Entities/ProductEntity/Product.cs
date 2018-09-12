@@ -27,6 +27,5 @@ namespace WikiTutorial.Entities.ProductEntity
             this.Description = description;
             this.Value = value;
         }
-
     }
 }
