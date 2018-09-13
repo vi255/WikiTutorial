@@ -13,5 +13,6 @@ namespace WikiTutorial.ClienteServices.DTOs
         public string LastName { get; set; }
         public string Cpf { get; set; }
         public string Idade { get; set; }
+        public string Email { get; set; }
     }
 }

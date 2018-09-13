@@ -26,6 +26,7 @@
                                     <th>@L("LastName")</th>
                                     <th>@L("Cpf")</th>
                                     <th>@L("Idade")</th>
+                                    <th>@L("E-mail")</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -34,7 +35,8 @@
                                     <td class="td--2">{{clien.lastName}}</td>
                                     <td class="td--3">{{clien.cpf}}</td>
                                     <td class="td--4">{{clien.idade}}</td>
-                                    <td class="td--5">
+                                    <td class="td--5">{{clien.email}}</td>
+                                    <td class="td--6">
                                         <div class="pull-right">
                                             <button class="btn bg-primary text-white overdue"
                                                     ng-click="vm.editCliente(clien)">
@@ -97,6 +99,11 @@
     }
 
     .td--5 {
+        width: 10%;
+        vertical-align: top;
+    }
+
+    .td--6 {
         width: 10%;
         vertical-align: top;
     }

@@ -14,6 +14,7 @@ namespace WikiTutorial.Entities.ClienteEntity
         public string LastName { get; set; }
         public string Cpf { get; set; }
         public string Idade { get; set; }
+        public string Email { get; set; }
 
         //Construtores
         public Cliente()
@@ -21,13 +22,14 @@ namespace WikiTutorial.Entities.ClienteEntity
             this.CreationTime = DateTime.Now;
         }
 
-        public Cliente(string name, string lastname, string cpf, string idade)//argumentos úteis para mapeamento
+        public Cliente(string name, string lastname, string cpf, string idade, string email)//argumentos úteis para mapeamento
         {
             this.CreationTime = DateTime.Now;
             this.Name = name;
             this.LastName = lastname;
             this.Cpf = cpf;
             this.Idade = idade;
+            this.Email = email;
         }
     }    
 }

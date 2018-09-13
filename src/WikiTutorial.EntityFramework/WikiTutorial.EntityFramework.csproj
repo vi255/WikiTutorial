@@ -209,6 +209,10 @@
     <Compile Include="Migrations\201809131249057_AdicionaIdadeNoCliente.Designer.cs">
       <DependentUpon>201809131249057_AdicionaIdadeNoCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201809131316315_AdicionaEmailNoCliente.cs" />
+    <Compile Include="Migrations\201809131316315_AdicionaEmailNoCliente.Designer.cs">
+      <DependentUpon>201809131316315_AdicionaEmailNoCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="WikiTutorialDataModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -235,6 +239,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201809131249057_AdicionaIdadeNoCliente.resx">
       <DependentUpon>201809131249057_AdicionaIdadeNoCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809131316315_AdicionaEmailNoCliente.resx">
+      <DependentUpon>201809131316315_AdicionaEmailNoCliente.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

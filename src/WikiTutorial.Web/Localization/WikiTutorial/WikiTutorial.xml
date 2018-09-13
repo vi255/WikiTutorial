@@ -39,5 +39,6 @@
     <text name="Create or Edit Cliente" value="Create or Edit Cliente" />
     <text name="Last Name" value="Last Name" />
     <text name="Idade" value="Idade" />
+    <text name="E-mail" value="E-mail" />
   </texts>
 </localizationDictionary>
