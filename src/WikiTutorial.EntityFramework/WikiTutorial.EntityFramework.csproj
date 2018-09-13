@@ -205,6 +205,10 @@
     <Compile Include="Migrations\201809121937029_EntidadeCliente.Designer.cs">
       <DependentUpon>201809121937029_EntidadeCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201809131249057_AdicionaIdadeNoCliente.cs" />
+    <Compile Include="Migrations\201809131249057_AdicionaIdadeNoCliente.Designer.cs">
+      <DependentUpon>201809131249057_AdicionaIdadeNoCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="WikiTutorialDataModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -228,6 +232,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201809121937029_EntidadeCliente.resx">
       <DependentUpon>201809121937029_EntidadeCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809131249057_AdicionaIdadeNoCliente.resx">
+      <DependentUpon>201809131249057_AdicionaIdadeNoCliente.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

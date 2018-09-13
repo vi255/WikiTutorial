@@ -25,7 +25,7 @@
                                     <th>@L("Name")</th>
                                     <th>@L("LastName")</th>
                                     <th>@L("Cpf")</th>
-                                    
+                                    <th>@L("Idade")</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -33,7 +33,8 @@
                                     <td class="td--1">{{clien.name}}</td>
                                     <td class="td--2">{{clien.lastName}}</td>
                                     <td class="td--3">{{clien.cpf}}</td>
-                                    <td class="td--4">
+                                    <td class="td--4">{{clien.idade}}</td>
+                                    <td class="td--5">
                                         <div class="pull-right">
                                             <button class="btn bg-primary text-white overdue"
                                                     ng-click="vm.editCliente(clien)">
@@ -71,32 +72,32 @@
 
     .table-truncate__body {
         position: absolute;
-        max-width: 95%;
+        max-width: 80%;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
     }
 
     .td--1 {
-        width: 20%;
+        width: 10%;
     }
 
     .td--2 {
-        width: 50%;
+        width: 10%;
     }
 
     .td--3 {
-        width: 70%;
+        width: 10%;
         vertical-align: top;
     }
 
     .td--4 {
-        width: 100%;
+        width: 10%;
         vertical-align: top;
     }
 
     .td--5 {
-        width: 100%;
+        width: 10%;
         vertical-align: top;
     }
 </style>

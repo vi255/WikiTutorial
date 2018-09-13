@@ -22,10 +22,10 @@ namespace WikiTutorial
                 .ConstructUsing(x => new Product(x.Name, x.Description, x.Size, x.Value));
 
                 config.CreateMap<CreateClienteInput, Cliente>()
-                .ConstructUsing(x => new Cliente(x.Name, x.LastName, x.Cpf));
+                .ConstructUsing(x => new Cliente(x.Name, x.LastName, x.Cpf, x.Idade));
 
                 config.CreateMap<UpdateClienteInput, Cliente>()
-                .ConstructUsing(x => new Cliente(x.Name, x.LastName, x.Cpf));
+                .ConstructUsing(x => new Cliente(x.Name, x.LastName, x.Cpf, x.Idade));
 
             });
         }
